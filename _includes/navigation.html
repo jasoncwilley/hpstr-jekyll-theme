@@ -17,8 +17,8 @@
 				{% if site.owner.twitter %}<li>
 					<a href="https://twitter.com/{{ site.owner.twitter }}"><i class="fa fa-fw fa-twitter"></i> Twitter</a>
 				</li>{% endif %}
-				{% if site.owner.facebook %}<li>
-					<a href="https://facebook.com/{{ site.owner.facebook }}"><i class="fa fa-fw fa-facebook"></i> Facebook</a>
+				{% if site.owner.keybase %}<li> 
+					<a href="https://keybase.io/starscape"><i><img src= "/images/keybase.png" class="author-photo"></i> Keybase</a>
 				</li>{% endif %}
 				{% if site.owner.google_plus %}<li>
 					<a href="https://google.com/{{ site.owner.google_plus }}"><i class="fa fa-fw fa-google-plus"></i> Google+</a>
@@ -48,6 +48,13 @@
 			<ul class="dl-submenu">
 				<li><a href="{{ site.url }}/posts/">All Posts</a></li>
 				<li><a href="{{ site.url }}/tags/">All Tags</a></li>
+			</ul>
+		</li>
+        <li>
+			<a href="#">ScrapBook</a>
+			<ul class="dl-submenu">
+				<li><a href="{{ site.url }}/pictures/">Pictures</a></li>
+				<li><a href="{{ site.url }}/randomness/">Everything Else</a></li>
 			</ul>
 		</li>
 		{% for link in site.data.navigation %}
