@@ -1,29 +1,29 @@
-title:            Site Title
-description:      Describe your website here.
+title:           JustAnotherJekyllBlog
+description:      Just Another Jekyll Blog
 disqus_shortname: 
 reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url:
+url: http://localhost:4000
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           JC Dubbau
   avatar:         avatar.jpg
   bio:            "Your bio goes here. It shouldn't be super long but a good sentence or two should suffice."
-  email:          you@email.com
+  email:          el337one1@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
-  github:         
+  github:        jasoncwilley 
   stackexchange:  
   linkedin:       
   instagram:      
   flickr:         
   tumblr:         
   # google plus id, include the '+', eg +mmistakes
-  google_plus:
+  google_plus: +el337one1@gmail.com
 
 # Background image to be tiled on all pages
 background: 
